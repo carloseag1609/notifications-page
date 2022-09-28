@@ -1,0 +1,27 @@
+@import "variables.scss";
+@import "base.scss";
+
+@import "components/notifications";
+
+.attribution {
+  background-color: $light-grayish-blue-2;
+  border-radius: 1rem;
+  bottom: 1rem;
+  color: $very-dark-blue;
+  font-size: 1.2rem;
+  left: 50%;
+  padding: 0.6rem;
+  position: fixed;
+  text-align: center;
+  transform: translateX(-50%);
+  width: 90%;
+
+  @media (min-width: 768px) {
+    max-width: 20%;
+  }
+
+  a {
+    color: $blue;
+    font-weight: 800;
+  }
+}
