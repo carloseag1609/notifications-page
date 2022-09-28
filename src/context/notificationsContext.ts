@@ -1,7 +1,7 @@
 import { createContext } from "react";
 
 export interface INotification {
-  id: number | string;
+  id: number;
   type: TNotificationType;
   sender: ISender;
   message: string;
